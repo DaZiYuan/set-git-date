@@ -5,8 +5,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        bool isInt = int.TryParse(args[0], out int timeDiff);
-        if (!isInt)
+        bool isDouble = double.TryParse(args[0], out double timeDiff);
+        if (!isDouble)
             return;
 
         string date = DateTime.Now.AddHours(timeDiff).ToString();

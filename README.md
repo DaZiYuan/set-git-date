@@ -17,3 +17,4 @@ sgd -8
 sgd -8 message
 ```
 - 然后右键粘贴代码
+- 最后mmit可以手动添加`--amend``
