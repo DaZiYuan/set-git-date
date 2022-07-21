@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SetGitDate": {
+      "commandName": "Project",
+      "commandLineArgs": "8 123"
+    }
+  }
+}

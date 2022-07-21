@@ -1,12 +1,19 @@
 # set-git-date
-一个小工具修改环境变量，已达到修改git提交时间的功能
+生成修改git提交时间的代码
+仅用于powershell
 ```powershell
 $Env:GIT_COMMITTER_DATE="2022-1-1 0:55"
 $Env:GIT_AUTHOR_DATE ="2022-1-1 0:55"
+git commit -a -m "msg"
 ```
 
 # 用法
+- 生成代码
 ```
-//定时更新为8小时前
-sgd -8 
+//修改为8小时前
+sgd -8
+
+//修改时间并生成提价代码
+sgd -8 message
 ```
+- 然后右键粘贴代码

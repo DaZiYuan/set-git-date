@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SetGitDate", "SetGitDate\SetGitDate.csproj", "{B1258A9F-DF4D-4FD1-B7E4-6BFD28F12A46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{B3A104D4-D4FC-4DF5-8AB5-53479DC61493}"
+	ProjectSection(SolutionItems) = preProject
+		..\docs\Build.md = ..\docs\Build.md
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1258A9F-DF4D-4FD1-B7E4-6BFD28F12A46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1258A9F-DF4D-4FD1-B7E4-6BFD28F12A46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1258A9F-DF4D-4FD1-B7E4-6BFD28F12A46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1258A9F-DF4D-4FD1-B7E4-6BFD28F12A46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24B8FB4E-F134-44BC-B8C6-255D27FD6DE0}
+	EndGlobalSection
+EndGlobal
