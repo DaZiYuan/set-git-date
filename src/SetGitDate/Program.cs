@@ -13,10 +13,10 @@ class Program
 
         StringBuilder sb = new();
         sb.AppendLine($"$Env:GIT_COMMITTER_DATE=\"{date}\"");
-        sb.AppendLine($"$Env:GIT_AUTHOR_DATE=\"{date}\"");
+        //sb.AppendLine($"$Env:GIT_AUTHOR_DATE=\"{date}\"");
         if (args.Length > 1)
         {
-            sb.Append($" git commit -a -m \"{args[1]}\"");
+            sb.Append($" git commit -a -m \"{args[1]}\"  --date=\"{date}\" ");
         }
         ClipboardService.SetText(sb.ToString());
         Console.WriteLine($"code copied");
